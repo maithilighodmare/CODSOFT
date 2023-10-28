@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator by maithili</title>
+    <link rel="stylesheet" href="task3calculator.css">
+</head>
+<body>
+   
+    <div class="container">
+        <form name="form">
+            <div class="display">
+                <input type="text"  placeholder="0" name="display"/>
+            </div>
+            <div class="btn">
+                
+                <div class="row1">
+                <input type="button"  value="1" onclick="display.value +='1' ">
+                <input type="button" name="n2" value="2" onclick="display.value +='2'">
+                <input type="button" name="n3" value="3" onclick="display.value +='3'">
+                <input type="button" name="addn" value="+" onclick="display.value +='+'">
+            </div>
+            <div class="row2">
+                <input type="button" name="n4" value="4" onclick="display.value +='4'">
+                <input type="button" name="n5" value="5" onclick="display.value +='5'">
+                <input type="button" name="n6" value="6" onclick="display.value +='6'">
+                <input type="button" name="subn" value="-" onclick="display.value +='-'">
+            </div>
+            <div class="row3">
+                <input type="button" name="n7" value="7" onclick="display.value +='7'">
+                <input type="button" name="n8" value="8" onclick="display.value +='8'">
+                <input type="button" name="n9" value="9" onclick="display.value +='9'">
+                <input type="button" name="muln" value="*" onclick="display.value +='*'">
+            </div>
+            <div class="row4">
+                <input type="button" name="n0" value="0" onclick="display.value +='0'">
+                <input type="button" name="pointn" value="." onclick="display.value +='.'">
+                <input type="button" name="divn" value="/" onclick="display.value +='/'">
+                <input type="button" name="eql" value="=" onclick="display.value =eval(display.value)">
+            </div>
+            <div class="row5">
+                <input type="button"  value="del" onclick="display.value ='' ">
+                <input type="button"  value="ac" onclick="display.value ='' ">
+                <input type="button"  value="00" onclick="display.value +='00' ">
+                
+            </div>
+        </div>
+        </form>
+     
+      
+    </div>
+</body>
+</html>
